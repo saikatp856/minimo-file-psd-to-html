@@ -1,0 +1,338 @@
+/*Font Style*/
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+
+
+body{
+
+	margin:0px;
+	padding:0px;
+}
+/*Global css*/
+.text-center{
+
+	text-align:center;
+}
+
+.pad-90{
+
+	padding-top:90px;
+}
+
+.pad-top-70{
+
+	padding-top:100px;
+}
+
+.pad-bot-30{
+
+	padding-bottom:70px;
+}
+
+.pad-100{
+
+	padding-top:100px;
+}
+
+.header-wraper{
+
+	overflow:auto;
+}
+
+.mag-bottom-70{
+
+	margin-bottom:90px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+/*Full WebSite Structure*/
+
+.container{
+
+  width:1140px;
+  margin: 0px auto;
+
+}
+
+/*Logo Style Work Start here*/
+
+.logo{
+
+	float:left;
+	width:200Px;
+/*	padding-left: 80px;*/
+}
+
+.logo img{
+
+	max-width:100%;
+	display:block;
+	padding-top:9px;
+	padding-left: 80px;
+	margin-left: 100px;
+
+}
+
+/*Logo Style Work End here*/
+
+/*Nav Style Work Start here*/
+
+.nav{
+
+	float:right;
+	width: 742px;
+
+}
+
+
+.nav-menu{
+
+  list-style:none;
+}
+.nav-menu li{
+
+   float:left;
+   font-style: 14pt;
+   font-family: playfair display;
+   margin-left: 60px;
+   text-transform:uppercase; 
+}
+.nav-menu li a{
+
+  text-decoration:none;
+  color: #666666;
+}
+
+
+/*Nav Style Work End here*/
+
+/*banner style Start here*/
+
+.banner{
+
+	padding-top: 80px;
+}
+
+.banner img{
+
+
+	width:100%;
+}
+
+/*banner style End here*/
+
+
+/*photodairy section style start here*/
+
+.tag,.comment{
+
+	font-family: uduntu;
+	font-size:14pt;
+	color: #cccccc;
+	text-transform:uppercase;
+	margin-bottom:50px;
+}
+
+/*main title style*/
+
+.main-title{
+
+
+	font-size:30pt;
+	font-family:playfair display;
+	color:#666666;
+
+
+}
+
+/*Description Style Start*/
+
+.des{
+
+   font-family:playfair display;
+   font-size:14pt;
+   line-height:1.7;
+   margin-bottom:40px; 
+}
+/*photodairy section style start here*/
+
+/*Post div start Here*/
+
+.post{
+
+	width:47%;
+}
+
+.post img{
+
+	width:100%;
+}
+
+.main-style{
+
+    font-size: 28pt;
+
+}
+
+.tag-style{
+
+ margin-top:34px;
+
+}
+
+.des-style{
+
+ text-align:justify;
+
+}
+
+/*using Float*/
+
+.post-left{
+
+	float:left;
+}
+
+.post-right{
+
+	float:right;
+}
+
+.row{
+
+	overflow:auto;
+}
+
+/*newsletter style*/
+
+.newsletter-background{
+
+
+	background-color:#eaeaea; 
+}
+
+form{
+
+width:500px;
+margin:0px auto;
+
+}
+
+
+.form-control{
+
+width:100%;
+height:50px;
+border:none;
+border-bottom:1px solid #333333;
+background-color:transparent;
+
+}
+
+.input-group{
+
+	position:relative;
+}
+
+.paper-plane{
+
+ position:absolute;
+ top:50%;
+ right:0px;
+}
+
+
+/*button style*/
+
+.btn{
+    background-color: white;
+    text-decoration: none;
+    padding: 20px 34px;
+    color:#666666;
+
+  } 
+
+.btn:hover{ 
+
+	background-color: black;
+	transition: 2s;
+	color:gold;
+}
+
+.footer-left{
+
+	float:left;
+}
+
+.footer-right{
+
+	float:right;
+	margin-right: 58px;
+}
+
+footer{
+	overflow: auto;
+}
+
+/*footer manu list design*/
+
+
+.follow-us{
+
+	font-family:playfair display;
+	font-size:14px;
+	font-weight: 800; 
+}
+
+.footer-menu{
+
+	list-style: none;
+}
+
+.footer-menu li{
+
+	float:left;
+	margin-left:31px;
+	
+}
+
+.footer-menu li a{
+
+	color:#666666;
+	text-decoration:none;
+
+}
+
+/*Global css*/
+
+.toc-p-design{
+
+	font-size:14pt;
+}
+
+.footer-color{
+
+	background-color: #eaeaea;
+}
+
+/*footer global css*/
+
+.footer-pad-top-30{
+
+padding-top:35px;
+
+}
+
+.footer-pad-bot-30{
+
+padding-bottom:35px;
+
+}
+
